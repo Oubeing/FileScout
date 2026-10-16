@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# FileScout runtime state - lives in %APPDATA%\FileScout, never in the repo
+*.db
+*.db-wal
+*.db-shm
+config.json
+
+# Archives / OS / editor
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
